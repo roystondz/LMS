@@ -1,9 +1,9 @@
 import {
   Table,
   TableBody,
-  TableCaption,
+  //TableCaption,
   TableCell,
-  TableFooter,
+  //TableFooter,
   TableHead,
   TableHeader,
   TableRow,
@@ -17,7 +17,7 @@ interface Companions {
   classNames?: string; 
 }
 
-const CompanionsList = ({title,companions,classNames}:Companions) => {
+const CompanionsList = ({companions,classNames}:Companions) => {
   return (
    <article className={cn('companion-list', classNames)}>
     <h1 className="font-bold text-3xl">Recent Companions</h1>
