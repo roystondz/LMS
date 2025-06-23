@@ -19,7 +19,7 @@ const NavItems = () => {
     <div className="flex items-center gap-4">
         {
             navItems.map(({label,href}) => (
-                <Link key={label} href={href} className={cn(pathname === href ? 'text-primary font-semibold' : '')}>
+                <Link key={label} href={href} className={cn(pathname === href ? ' font-semibold text-red-400' : '')}>
                     {label}
                 </Link>
             ))
