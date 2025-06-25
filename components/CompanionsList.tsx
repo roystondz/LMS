@@ -17,10 +17,10 @@ interface Companions {
   classNames?: string; 
 }
 
-const CompanionsList = ({companions,classNames}:Companions) => {
+const CompanionsList = ({title,companions,classNames}:Companions) => {
   return (
    <article className={cn('companion-list', classNames)}>
-    <h1 className="font-bold text-3xl">Recent Companions</h1>
+    <h1 className="font-bold text-3xl">{title}</h1>
     <Table>
   
   <TableHeader>
