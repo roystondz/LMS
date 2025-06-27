@@ -7,14 +7,24 @@ export const subjects = [
   "economics",
 ];
 
+// export const subjectsColors = {
+//   science: "#E5D0FF",
+//   maths: "#FFDA6E",
+//   language: "#BDE7FF",
+//   coding: "#FFC8E4",
+//   history: "#FFECC8",
+//   economics: "#C8FFDF",
+// };
+
 export const subjectsColors = {
-  science: "#E5D0FF",
-  maths: "#FFDA6E",
-  language: "#BDE7FF",
-  coding: "#FFC8E4",
-  history: "#FFECC8",
-  economics: "#C8FFDF",
+  science: "#A2D2FF",     // Soft sky blue
+  maths: "#FFD6A5",       // Peach
+  language: "#CDB4DB",    // Lavender
+  coding: "#B5EAD7",      // Mint green
+  history: "#FFDAC1",     // Light coral
+  economics: "#E0BBE4",   // Lilac
 };
+
 
 export const voices = {
   male: { casual: "2BJW5coyhAzSr8STdHbE", formal: "c6SfcYrb2t09NHXiT80T" },
